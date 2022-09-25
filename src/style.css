@@ -3,10 +3,8 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -41,11 +39,6 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -65,8 +58,49 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.register-component{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.register-child{
+  margin-right: auto;
+}
+
 .card {
   padding: 2em;
+}
+
+input{
+  padding: 0.75em 1em 0.5em 0.75em;
+  border: solid lightgrey;
+  border-radius:0.5em 0.5em 0.5em 0.5em;
+  border-width: 0.15em;
+}
+
+input[type="checkbox"]{
+  padding: 0.75em 0.75em 0.75em 0.75em;
+  border: solid lightgrey;
+  border-radius:0.5em 0.5em 0.5em 0.5em;
+  border-width: 0.15em;
+  appearance: none;
+}
+
+button[type="submit"]{
+  background-color: #386cbb;
+  border: #386cbb;
+  color: white;
+  width: 100%;
+}
+
+.termsOfService{
+  display: flex;
+  font-size: 0.6em;
 }
 
 #app {
