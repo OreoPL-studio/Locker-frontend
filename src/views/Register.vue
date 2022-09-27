@@ -1,13 +1,13 @@
 <script setup>
 import router from '../router';
 
-    const login = ''
-    const password = ''
+    //const login = ''
+    //const password = ''
 
     function onSubmit(e){
         e.preventDefault()
 
-        /*if(login || password ){
+        /*if(!login || !password ){
             alert('Please fill the form')
             return
         }else{*/
@@ -20,8 +20,7 @@ import router from '../router';
 <template>
     <div class="register-component">
         <div class="register-child">
-            <h1>Nice to</h1>
-            <h1>meet you!</h1>
+            <h1>Nice to meet you!</h1>
             <h3>Ready to join us?</h3>
 
                 <form @submit="onSubmit" class="login-form">
@@ -44,3 +43,11 @@ import router from '../router';
         </div>
     </div>
 </template>
+
+<style scoped>
+.register-component{
+  position: relative;
+  width: 428px;
+  height: 926px;
+}
+</style>
