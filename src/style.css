@@ -4,7 +4,7 @@
   line-height: 24px;
   font-weight: 400;
   color: black;
-  background-color: white;
+  background-color: #F5F5F5;;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -60,6 +60,13 @@ button:focus-visible {
 
 h1{
   font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+p{
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
 }
 
 
@@ -101,6 +108,123 @@ button[type="submit"]{
 .error-component{
   display: flex;
   flex-direction: column;
+}
+
+.img{
+  z-index: 0;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.fa-lock{
+  color: rgb(78, 78, 78);
+  font-size: 11em;
+  padding: 0.15em 0.3em 0 0.1em;
+}
+
+.fa-arrow-right-from-bracket{
+  color: #BFBFBF;
+  font-size: 4em;
+  margin: 0;
+}
+
+.lockerButtonsSection{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.white-box-home{
+  position: absolute;
+  z-index: -1;
+}
+
+.hi{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2em;
+}
+
+.btn1{
+  height: 2em;
+  font-family: Roboto, sans-serif;
+  font-weight: 701;
+  font-size: 20px;
+  color: #383737;
+  background-color: white;
+  padding: 5px 21px;
+  border: solid grey 0.17em;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transform: translateY(0);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn2{
+  height: 2em;
+  font-family: Roboto, sans-serif;
+  font-weight: 701;
+  font-size: 20px;
+  color: #106bcc;
+  background-color: white;
+  padding: 5px 21px;
+  border: solid #4386c9 0.17em;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transform: translateY(0);
+  display: flex;
+  align-items: center;
+}
+
+.btn3{
+  height: 2em;
+  font-family: Roboto, sans-serif;
+  font-weight: 701;
+  font-size: 20px;
+  color: #ff0000;
+  background-color: white;
+  padding: 5px 20px;
+  border: solid #ff0000 0.17em;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition : 1180ms;
+  transform: translateY(0);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.white-box-footer{
+  position: absolute;
+  z-index: -1;
+}
+
+.footer-icon{
+  color: rgb(78, 78, 78);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 2em;
 }
 
 #app {
