@@ -10,7 +10,7 @@ const login = localStorage.getItem("login");
 <template>
     <div class="header">
         <img src="avatar.png">
-        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+        <router-link to="/"><i class="fa-solid fa-arrow-right-from-bracket"></i></router-link>
     </div>
     <p class="hi">Hi {{login}}</p>
 </template>

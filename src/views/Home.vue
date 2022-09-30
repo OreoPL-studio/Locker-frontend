@@ -20,6 +20,6 @@ function onSumbit(){
                 <button class="btn3">Disable</button>
             </div>
         </div>
-        <p>Logs</p>
+        <p class="logs-text">Logs</p>
         <Footer/>
 </template>
